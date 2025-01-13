@@ -37,5 +37,33 @@ func FuzzStrutil(data []byte) int {
 		panic(fmt.Sprintf("Mismatch between verRegex and IsVersion for input: %q", input))
 	}
 
+	// Testa funções de conversão de bases
+	for _, base := range []int{2, 8, 10, 16, 32, 36, 62, 64} {
+		// Tenta converter input como uma string em base 10 para outra base
+		_ = strutil.Base10Conv(input, base)
+
+		// Converte entre diferentes bases usando BaseConv
+		for _, fromBase := range []int{2, 10, 16} {
+			_ = strutil.BaseConv(input, fromBase, base)
+		}
+	}
+
+	// Testa BaseConvByTpl diretamente com diferentes templates
+	_ = strutil.BaseConvByTpl(input, strutil.Base10Chars, strutil.Base16Chars)
+	_ = strutil.BaseConvByTpl(input, strutil.Base62Chars, strutil.Base36Chars)
+	_ = strutil.BaseConvByTpl(input, strutil.Base64Chars, strutil.Base32Chars)
+
+	// Testa funções de similaridade
+	comp := strutil.NewComparator(input, "example")
+	rate, ok := comp.Similar(0.5)
+	if !ok {
+		fmt.Printf("Similarity too low: %.2f\n", rate)
+	}
+
+	rate, ok = strutil.Similarity(input, "example", 0.5)
+	if !ok {
+		fmt.Printf("Global Similarity too low: %.2f\n", rate)
+	}
+
 	return 1
 }
