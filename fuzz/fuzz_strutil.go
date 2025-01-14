@@ -6,6 +6,7 @@ package fuzz
 import (
 	"fmt"
 	"regexp"
+	"strconv"
 
 	"github.com/gookit/goutil/strutil"
 )
@@ -67,4 +68,43 @@ func FuzzStrutil(data []byte) int {
 	}
 
 	return 1
+}
+
+func FuzzRandomWindows(data []byte) int {
+	if len(data) == 0 {
+		return 0
+	}
+
+	input := string(data)
+
+	// Testa nearestPowerOfTwo
+	if num, err := strconv.Atoi(input); err == nil && num > 0 {
+		_ = strutil.NearestPowerOfTwo(num)
+	}
+
+	// Testa buildRandomString
+	letters := "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	length := len(input) % 100 // Limita o tamanho para evitar inputs muito grandes
+	if length > 0 {
+		generated := strutil.BuildRandomString(letters, length)
+		if len(generated) != length {
+			panic(fmt.Sprintf("Generated string has wrong length: expected %d, got %d", length, len(generated)))
+		}
+		for _, char := range generated {
+			if !containsRune(letters, char) {
+				panic(fmt.Sprintf("Generated string contains invalid character: %c", char))
+			}
+		}
+	}
+
+	return 1
+}
+
+func containsRune(s string, r rune) bool {
+	for _, char := range s {
+		if char == r {
+			return true
+		}
+	}
+	return false
 }
