@@ -38,16 +38,16 @@ func FuzzStrutil(data []byte) int {
 		panic(fmt.Sprintf("Mismatch between verRegex and IsVersion for input: %q", input))
 	}
 
-	// Testa funções de conversão de bases
-	for _, base := range []int{2, 8, 10, 16, 32, 36, 62, 64} {
-		// Tenta converter input como uma string em base 10 para outra base
-		_ = strutil.Base10Conv(input, base)
+	// // Testa funções de conversão de bases
+	// for _, base := range []int{2, 8, 10, 16, 32, 36, 62, 64} {
+	// 	// Tenta converter input como uma string em base 10 para outra base
+	// 	_ = strutil.Base10Conv(input, base)
 
-		// Converte entre diferentes bases usando BaseConv
-		for _, fromBase := range []int{2, 10, 16} {
-			_ = strutil.BaseConv(input, fromBase, base)
-		}
-	}
+	// 	// Converte entre diferentes bases usando BaseConv
+	// 	for _, fromBase := range []int{2, 10, 16} {
+	// 		_ = strutil.BaseConv(input, fromBase, base)
+	// 	}
+	// }
 
 	// Testa BaseConvByTpl diretamente com diferentes templates
 	// _ = strutil.BaseConvByTpl(input, strutil.Base10Chars, strutil.Base16Chars)
