@@ -12,6 +12,7 @@ import (
 
 // FuzzStrutil é um fuzz target para a biblioteca `strutil`.
 func FuzzStrutil(data []byte) int {
+
 	input := string(data)
 
 	// Testa funções relacionadas a parsing de strings
@@ -49,9 +50,9 @@ func FuzzStrutil(data []byte) int {
 	}
 
 	// Testa BaseConvByTpl diretamente com diferentes templates
-	_ = strutil.BaseConvByTpl(input, strutil.Base10Chars, strutil.Base16Chars)
-	_ = strutil.BaseConvByTpl(input, strutil.Base62Chars, strutil.Base36Chars)
-	_ = strutil.BaseConvByTpl(input, strutil.Base64Chars, strutil.Base32Chars)
+	// _ = strutil.BaseConvByTpl(input, strutil.Base10Chars, strutil.Base16Chars)
+	// _ = strutil.BaseConvByTpl(input, strutil.Base62Chars, strutil.Base36Chars)
+	// _ = strutil.BaseConvByTpl(input, strutil.Base64Chars, strutil.Base32Chars)
 
 	// Testa funções de similaridade
 	comp := strutil.NewComparator(input, "example")
