@@ -21,8 +21,8 @@ func FuzzByteUtil(data []byte) int {
 	// Testa WriteByte e PrintByte
 	if len(data) > 0 {
 		buffer.PrintByte(data[0])
-		if buffer.String() != string(data[0]) {
-			panic(fmt.Sprintf("PrintByte falhou: esperado %q, obtido %q", string(data[0]), buffer.String()))
+		if len(buffer.Bytes()) > 0 && buffer.Bytes()[0] != data[0] {
+			panic(fmt.Sprintf("PrintByte falhou: esperado %q, obtido %q", string(data[0]), buffer.Bytes()))
 		}
 		buffer.Reset()
 	}

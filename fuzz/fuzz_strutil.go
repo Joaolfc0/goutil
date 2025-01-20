@@ -75,7 +75,7 @@ func FuzzRandomChars(data []byte) int {
 		return 0
 	}
 
-	input := len(data) % 100 // Limita o tamanho para evitar inputs muito grandes
+	input := len(data) // Limita o tamanho para evitar inputs muito grandes
 
 	// Testa RandomChars
 	generated := strutil.RandomChars(input)
