@@ -3,8 +3,8 @@ package syncs_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/syncs"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/syncs"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestGo(t *testing.T) {

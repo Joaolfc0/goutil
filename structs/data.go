@@ -3,10 +3,10 @@ package structs
 import (
 	"sync"
 
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // LiteData simple map[string]any struct. no lock

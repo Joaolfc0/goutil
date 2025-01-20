@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/jsonutil"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/jsonutil"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestGetByPath(t *testing.T) {
@@ -327,7 +327,7 @@ func TestGetByPathKeys(t *testing.T) {
 	})
 }
 
-// https://github.com/gookit/goutil/issues/109
+// https://github.com/Joaolfc0/goutil/issues/109
 func TestIssues_109(t *testing.T) {
 	mp := make(map[string]any)
 	err := jsonutil.DecodeString(`{

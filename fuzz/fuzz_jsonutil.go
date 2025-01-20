@@ -6,7 +6,7 @@ package fuzz
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/jsonutil"
+	"github.com/Joaolfc0/goutil/jsonutil"
 )
 
 // FuzzJSONUtil testa as funções do pacote jsonutil.

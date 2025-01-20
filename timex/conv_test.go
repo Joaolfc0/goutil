@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
-	"github.com/gookit/goutil/timex"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/timex"
 )
 
 func TestElapsedNow(t *testing.T) {

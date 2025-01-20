@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // ReplaceVars by regex replace given tpl vars.

@@ -3,8 +3,8 @@ package testutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestNewBuffer(t *testing.T) {

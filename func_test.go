@@ -4,16 +4,16 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestFuncName(t *testing.T) {
 	name := goutil.FuncName(goutil.PkgName)
-	assert.Eq(t, "github.com/gookit/goutil.PkgName", name)
+	assert.Eq(t, "github.com/Joaolfc0/goutil.PkgName", name)
 
 	name = goutil.FuncName(goutil.PanicIfErr)
-	assert.Eq(t, "github.com/gookit/goutil.PanicIfErr", name)
+	assert.Eq(t, "github.com/Joaolfc0/goutil.PanicIfErr", name)
 
 	err := goutil.Go(func() error {
 		return nil

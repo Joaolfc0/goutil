@@ -12,7 +12,7 @@ and with some commonly built-in matchers.
 package main
 
 import (
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/dump"
 	"github.com/goutil/fsutil/finder"
 )
 

@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/testutil/assert"
-	"github.com/gookit/goutil/testutil/fakeobj"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/testutil/fakeobj"
 )
 
 func TestMatchFirst(t *testing.T) {

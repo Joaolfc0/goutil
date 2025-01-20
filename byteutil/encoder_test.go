@@ -3,8 +3,8 @@ package byteutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/byteutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestB64Encoder(t *testing.T) {

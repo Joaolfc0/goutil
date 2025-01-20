@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/internal/checkfn"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/reflects"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/internal/checkfn"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/reflects"
 )
 
 // Nil asserts that the given is a nil value

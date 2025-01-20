@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // Elapsed calc elapsed time from start time to end time.

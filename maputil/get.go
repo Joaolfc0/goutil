@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/reflects"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/reflects"
 )
 
 // some consts for separators

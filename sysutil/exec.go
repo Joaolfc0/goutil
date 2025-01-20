@@ -3,9 +3,9 @@ package sysutil
 import (
 	"os/exec"
 
-	"github.com/gookit/goutil/cliutil/cmdline"
-	"github.com/gookit/goutil/internal/checkfn"
-	"github.com/gookit/goutil/sysutil/cmdr"
+	"github.com/Joaolfc0/goutil/cliutil/cmdline"
+	"github.com/Joaolfc0/goutil/internal/checkfn"
+	"github.com/Joaolfc0/goutil/sysutil/cmdr"
 )
 
 // NewCmd instance

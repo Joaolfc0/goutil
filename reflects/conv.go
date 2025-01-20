@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // BaseTypeVal convert custom type or intX,uintX,floatX to generic base type.

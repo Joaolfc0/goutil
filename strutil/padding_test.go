@@ -3,8 +3,8 @@ package strutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestPadding(t *testing.T) {
@@ -131,7 +131,7 @@ func TestPadRunes(t *testing.T) {
 }
 
 // runtime error: make slice: cap out of range #76
-// https://github.com/gookit/goutil/issues/76
+// https://github.com/Joaolfc0/goutil/issues/76
 func TestIssues_76(t *testing.T) {
 	// TODO
 }

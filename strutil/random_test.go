@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestRandomChars(t *testing.T) {
@@ -32,7 +32,7 @@ func TestRandomCharsV2(t *testing.T) {
 	assert.Len(t, keyMp, 10)
 }
 
-// https://github.com/gookit/goutil/issues/121
+// https://github.com/Joaolfc0/goutil/issues/121
 func TestRandomCharsV2_issues121(t *testing.T) {
 	keyMp := make(map[string]bool)
 

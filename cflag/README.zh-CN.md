@@ -14,12 +14,12 @@
 ## 安装
 
 ```shell
-go get github.com/gookit/goutil/cflag
+go get github.com/Joaolfc0/goutil/cflag
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/cflag)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/cflag)
 
 ## 使用
 
@@ -29,8 +29,8 @@ go get github.com/gookit/goutil/cflag
 package main
 
 import (
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/cliutil"
 )
 
 var opts = struct {
@@ -158,8 +158,8 @@ go run ./cflag/_example/cmd.go --name inhere
 package main
 
 import (
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 var c1Opts = struct {

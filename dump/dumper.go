@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Joaolfc0/goutil/strutil"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil/strutil"
 )
 
 // printValue must keep track of already-printed pointer values to avoid
@@ -128,16 +128,16 @@ func (d *Dumper) dump(vs ...any) {
 }
 
 func (d *Dumper) printCaller(pc uintptr, file string, line int) {
-	// eg: github.com/gookit/goutil/dump.ExamplePrint
+	// eg: github.com/Joaolfc0/goutil/dump.ExamplePrint
 	fnName := runtime.FuncForPC(pc).Name()
 
 	lineS := strconv.Itoa(line)
 	nodes := []string{"PRINT AT "}
 
 	// eg:
-	// "PRINT AT github.com/gookit/goutil/dump.ExamplePrint(goutil/dump/dump_test.go:23)"
-	// "PRINT AT github.com/gookit/goutil/dump.ExamplePrint(dump_test.go:23)"
-	// "PRINT AT github.com/gookit/goutil/dump.ExamplePrint(:23)"
+	// "PRINT AT github.com/Joaolfc0/goutil/dump.ExamplePrint(goutil/dump/dump_test.go:23)"
+	// "PRINT AT github.com/Joaolfc0/goutil/dump.ExamplePrint(dump_test.go:23)"
+	// "PRINT AT github.com/Joaolfc0/goutil/dump.ExamplePrint(:23)"
 	for _, flag := range callerFlags {
 		// has flag
 		if d.ShowFlag&flag == 0 {

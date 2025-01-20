@@ -3,8 +3,8 @@ package panics
 import (
 	"reflect"
 
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/reflects"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/reflects"
 )
 
 // IsTrue assert result is true, otherwise will panic

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/gookit/goutil/stdio"
+	"github.com/Joaolfc0/goutil/stdio"
 )
 
 // DataFormatter interface

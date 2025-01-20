@@ -3,13 +3,13 @@ package httpreq_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/jsonutil"
-	"github.com/gookit/goutil/netutil/httpctype"
-	"github.com/gookit/goutil/netutil/httpreq"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/jsonutil"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/netutil/httpreq"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestOptions_build(t *testing.T) {

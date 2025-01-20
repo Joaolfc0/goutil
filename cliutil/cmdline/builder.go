@@ -3,7 +3,7 @@ package cmdline
 import (
 	"strings"
 
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // LineBuilder build command line string.

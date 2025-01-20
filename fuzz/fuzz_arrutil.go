@@ -6,7 +6,7 @@ package fuzz
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/arrutil"
 )
 
 // FuzzArrUtil testa as funções no pacote arrutil.

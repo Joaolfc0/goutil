@@ -7,8 +7,8 @@ package timex
 import (
 	"time"
 
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // provide some commonly time constants

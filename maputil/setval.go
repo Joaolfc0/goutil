@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // SetByPath set sub-map value by key path.

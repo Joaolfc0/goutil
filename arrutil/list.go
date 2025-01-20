@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gookit/goutil/comdef"
+	"github.com/Joaolfc0/goutil/comdef"
 )
 
 // Ints type

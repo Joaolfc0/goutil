@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gookit/goutil/internal/varexpr"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/internal/varexpr"
+	"github.com/Joaolfc0/goutil/reflects"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 const defaultInitTag = "default"

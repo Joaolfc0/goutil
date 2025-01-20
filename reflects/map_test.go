@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/reflects"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestFlatMap(t *testing.T) {

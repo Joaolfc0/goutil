@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // IsTrue assert result is true, otherwise will return error

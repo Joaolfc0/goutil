@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/strutil/textutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/strutil/textutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 var data = map[string]any{

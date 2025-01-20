@@ -13,12 +13,12 @@
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/cflag
+go get github.com/Joaolfc0/goutil/cflag
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/cflag)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/cflag)
 
 ## Usage
 
@@ -28,8 +28,8 @@ Examples, code please see [_example/cmd.go](_example/cmd.go)
 package main
 
 import (
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/cliutil"
 )
 
 var opts = struct {
@@ -154,8 +154,8 @@ Use `cflag` to quickly build a multi-command application.
 package main
 
 import (
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 var c1Opts = struct {

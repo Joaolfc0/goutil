@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/gookit/goutil/byteutil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // PID get current process ID

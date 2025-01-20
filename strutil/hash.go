@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 
-	"github.com/gookit/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/byteutil"
 )
 
 // Md5 Generate a 32-bit md5 string

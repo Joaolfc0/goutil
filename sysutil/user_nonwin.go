@@ -6,7 +6,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // IsAdmin Determine whether the current user is an administrator(root)

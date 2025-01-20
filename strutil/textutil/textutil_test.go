@@ -3,9 +3,9 @@ package textutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/strutil/textutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/strutil/textutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestReplaceVars(t *testing.T) {

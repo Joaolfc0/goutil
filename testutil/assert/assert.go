@@ -6,8 +6,8 @@ package assert
 import (
 	"strings"
 
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil/internal/comfunc"
 )
 
 // TestingT is an interface wrapper around *testing.T

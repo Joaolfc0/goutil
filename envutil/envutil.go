@@ -4,7 +4,7 @@ package envutil
 import (
 	"os"
 
-	"github.com/gookit/goutil/internal/varexpr"
+	"github.com/Joaolfc0/goutil/internal/varexpr"
 )
 
 // ValueGetter Env value provider func.

@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/strutil/textutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/strutil/textutil"
 )
 
 // RepeatableFlag interface.

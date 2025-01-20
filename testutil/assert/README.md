@@ -5,12 +5,12 @@ Package assert provides some tool functions for use with the Go testing.
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/sysutil
+go get github.com/Joaolfc0/goutil/sysutil
 ```
 
 ## GoDocs
 
-Please see [Go docs](https://pkg.go.dev/github.com/gookit/goutil/testutil/assert)
+Please see [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/testutil/assert)
 
 ## Function API
 

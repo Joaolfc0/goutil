@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gookit/goutil/sysutil"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/sysutil"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestSysenv_common(t *testing.T) {

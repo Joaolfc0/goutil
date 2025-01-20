@@ -19,16 +19,16 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/basefn"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/envutil"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/stdio"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/strutil"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/envutil"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/stdio"
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/strutil"
 )
 
 // Debug mode

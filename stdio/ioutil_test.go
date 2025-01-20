@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/stdio"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/stdio"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestQuietFprint(t *testing.T) {

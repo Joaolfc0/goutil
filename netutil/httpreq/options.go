@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/basefn"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
 )
 
 // Options alias of Option

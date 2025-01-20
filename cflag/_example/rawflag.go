@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 var opts1 = struct {

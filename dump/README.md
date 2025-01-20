@@ -2,18 +2,18 @@
 
 `goutil/dump` is a golang data printing toolkit that prints beautiful and easy to read go slice, map, struct data
 
-- Github: https://github.com/gookit/goutil/dump
-- GoDoc: https://pkg.go.dev/github.com/gookit/goutil/dump
+- Github: https://github.com/Joaolfc0/goutil/dump
+- GoDoc: https://pkg.go.dev/github.com/Joaolfc0/goutil/dump
 
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/dump
+go get github.com/Joaolfc0/goutil/dump
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/dump)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/dump)
 
 ## Usage
 
@@ -22,7 +22,7 @@ run demo: `go run ./dump/_examples/demo1.go`
 ```go
 package main
 
-import "github.com/gookit/goutil/dump"
+import "github.com/Joaolfc0/goutil/dump"
 
 // rum demo: go run ./dump/_examples/demo1.go
 func main() {

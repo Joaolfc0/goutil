@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestStringJoin(t *testing.T) {

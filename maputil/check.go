@@ -3,7 +3,7 @@ package maputil
 import (
 	"reflect"
 
-	"github.com/gookit/goutil/reflects"
+	"github.com/Joaolfc0/goutil/reflects"
 )
 
 // HasKey check of the given map.

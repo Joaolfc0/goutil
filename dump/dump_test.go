@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Joaolfc0/goutil/testutil/assert"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil/testutil/assert"
 )
 
 func ExamplePrint() {
@@ -33,7 +33,7 @@ func ExamplePrint() {
 	)
 
 	// Output like:
-	// PRINT AT github.com/gookit/goutil/dump.ExamplePrint(LINE 14):
+	// PRINT AT github.com/Joaolfc0/goutil/dump.ExamplePrint(LINE 14):
 	// int(23)
 	// []string{"ab", "cd"}
 	// []int [
@@ -124,9 +124,9 @@ func TestPrint(t *testing.T) {
 
 	// print position
 	Fprint(buf, 123)
-	// "PRINT AT github.com/gookit/goutil/dump.TestPrint(dump_test.go:65)"
+	// "PRINT AT github.com/Joaolfc0/goutil/dump.TestPrint(dump_test.go:65)"
 	str := buf.String()
-	is.Contains(str, "PRINT AT github.com/gookit/goutil/dump.TestPrint(dump_test.go:")
+	is.Contains(str, "PRINT AT github.com/Joaolfc0/goutil/dump.TestPrint(dump_test.go:")
 	is.Contains(str, "int(123)")
 
 	// dont print position
@@ -213,7 +213,7 @@ func TestStruct_CannotExportField(t *testing.T) {
 	Print(myOpts)
 
 	// OUT:
-	// PRINT AT github.com/gookit/goutil/dump.TestStruct_CannotExportField(dump_test.go:202)
+	// PRINT AT github.com/Joaolfc0/goutil/dump.TestStruct_CannotExportField(dump_test.go:202)
 	// struct { opt0 *int; opt1 bool; opt2 int; opt3 float64; opt4 string } {
 	//  opt0: <nil>,
 	//  opt1: true,
@@ -315,7 +315,7 @@ func TestStruct_ptrField(_ *testing.T) {
 
 	Println(opt)
 	/* Output:
-	PRINT AT github.com/gookit/goutil/dump.TestStruct_ptrField(dump_test.go:316)
+	PRINT AT github.com/Joaolfc0/goutil/dump.TestStruct_ptrField(dump_test.go:316)
 	&dump.userOpts {
 	  Int: *int<nil>,
 	  Str: &string("xyz"), #len=3
@@ -324,7 +324,7 @@ func TestStruct_ptrField(_ *testing.T) {
 	d := newStd().WithOptions(SkipNilField())
 	d.Println(opt)
 	/* Output:
-	PRINT AT github.com/gookit/goutil/dump.TestStruct_ptrField(dump_test.go:318)
+	PRINT AT github.com/Joaolfc0/goutil/dump.TestStruct_ptrField(dump_test.go:318)
 	&dump.userOpts {
 	    Str: &string("xyz"), #len=3
 	  },

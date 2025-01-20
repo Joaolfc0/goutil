@@ -4,8 +4,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestAddPrefix(t *testing.T) {

@@ -5,12 +5,12 @@
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/fsutil
+go get github.com/Joaolfc0/goutil/fsutil
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/fsutil)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/fsutil)
 
 ## Find files
 

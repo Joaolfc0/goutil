@@ -3,8 +3,8 @@ package goutil
 import (
 	"context"
 
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/syncs"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/syncs"
 )
 
 // ErrGroup is a collection of goroutines working on subtasks that

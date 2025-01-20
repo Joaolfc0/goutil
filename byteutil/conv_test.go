@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/byteutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestStrOrErr(t *testing.T) {

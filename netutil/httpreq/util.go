@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/netutil/httpctype"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // BasicAuthConf struct

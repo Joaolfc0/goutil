@@ -8,8 +8,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/gookit/goutil/internal/checkfn"
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/internal/checkfn"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 	"golang.org/x/term"
 )
 

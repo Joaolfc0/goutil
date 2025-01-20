@@ -1,8 +1,8 @@
 package strutil
 
 import (
-	"github.com/gookit/goutil/byteutil"
-	"github.com/gookit/goutil/encodes"
+	"github.com/Joaolfc0/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/encodes"
 )
 
 // some constants string chars

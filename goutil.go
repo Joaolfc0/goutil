@@ -5,9 +5,9 @@ package goutil
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/goutil/goinfo"
-	"github.com/gookit/goutil/structs"
+	"github.com/Joaolfc0/goutil/basefn"
+	"github.com/Joaolfc0/goutil/goinfo"
+	"github.com/Joaolfc0/goutil/structs"
 )
 
 // Value alias of structs.Value

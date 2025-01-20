@@ -11,12 +11,12 @@
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/cliutil
+go get github.com/Joaolfc0/goutil/cliutil
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/cliutil)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/cliutil)
 
 ## Helper functions
 
@@ -69,8 +69,8 @@ parse input command line to `[]string`, such as cli `os.Args`
 package main
 
 import (
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 func main() {
@@ -82,7 +82,7 @@ func main() {
 **output**:
 
 ```text
-PRINT AT github.com/gookit/goutil/cliutil_test.TestParseLine(line_parser_test.go:30)
+PRINT AT github.com/Joaolfc0/goutil/cliutil_test.TestParseLine(line_parser_test.go:30)
 []string [ #len=5
   string("./app"), #len=5
   string("top"), #len=3

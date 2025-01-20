@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // DirPath get dir path from filepath, without last name.

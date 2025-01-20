@@ -5,7 +5,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/gookit/goutil/sysutil"
+	"github.com/Joaolfc0/goutil/sysutil"
 	"golang.org/x/sys/windows"
 )
 

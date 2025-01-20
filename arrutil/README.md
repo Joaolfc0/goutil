@@ -3,12 +3,12 @@
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/arrutil
+go get github.com/Joaolfc0/goutil/arrutil
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/arrutil)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/arrutil)
 
 ## Functions API
 

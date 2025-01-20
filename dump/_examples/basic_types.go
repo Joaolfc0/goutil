@@ -1,6 +1,6 @@
 package main
 
-import "github.com/gookit/goutil/dump"
+import "github.com/Joaolfc0/goutil/dump"
 
 // rum demo:
 // 	go run ./dump/_examples/basic_types.go

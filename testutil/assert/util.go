@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/reflects"
+	"github.com/Joaolfc0/goutil/strutil"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/strutil"
 )
 
 // isEmpty value check

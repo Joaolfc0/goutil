@@ -5,7 +5,7 @@ Provides an enhanced time.Time implementation, and add more commonly used functi
 ## Install
 
 ```go
-go get github.com/gookit/goutil/timex
+go get github.com/Joaolfc0/goutil/timex
 ```
 
 ## Usage

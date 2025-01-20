@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/testutil
+go get github.com/Joaolfc0/goutil/testutil
 ```
 
 ## [`assert`](./assert) tests
@@ -20,8 +20,8 @@ package assert_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestErr(t *testing.T) {
@@ -71,8 +71,8 @@ package testutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestNewTestWriter(t *testing.T) {

@@ -43,7 +43,7 @@ func (s *stack) WriteTo(w io.Writer) (int64, error) {
 
 		// file eg: workspace/godev/gookit/goutil/errorx/errorx_test.go
 		file, line := fc.FileLine(pc - 1)
-		// f.Name() eg: github.com/gookit/goutil/errorx_test.TestWithPrev()
+		// f.Name() eg: github.com/Joaolfc0/goutil/errorx_test.TestWithPrev()
 		location := fc.Name() + "()\n  " + file + ":" + strconv.Itoa(line) + "\n"
 
 		n, _ := w.Write([]byte(location))
@@ -108,7 +108,7 @@ func (f *Func) FileLine() (file string, line int) {
 //
 // Returns eg:
 //
-//	"github.com/gookit/goutil/errorx_test.TestWithPrev(), errorx_test.go:34"
+//	"github.com/Joaolfc0/goutil/errorx_test.TestWithPrev(), errorx_test.go:34"
 func (f *Func) Location() string {
 	file, line := f.FileLine()
 
@@ -119,8 +119,8 @@ func (f *Func) Location() string {
 //
 // Returns eg:
 //
-//	github.com/gookit/goutil/errorx_test.TestWithPrev()
-//	  At /path/to/github.com/gookit/goutil/errorx_test.go:34
+//	github.com/Joaolfc0/goutil/errorx_test.TestWithPrev()
+//	  At /path/to/github.com/Joaolfc0/goutil/errorx_test.go:34
 func (f *Func) String() string {
 	file, line := f.FileLine()
 

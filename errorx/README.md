@@ -5,12 +5,12 @@
 ## Install
 
 ```go
-go get github.com/gookit/goutil/errorx
+go get github.com/Joaolfc0/goutil/errorx
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/errorx)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/errorx)
 
 ## Usage
 
@@ -87,11 +87,11 @@ Examples:
 ```text
 the error message
 STACK:
-github.com/gookit/goutil/errorx_test.returnXErr()
+github.com/Joaolfc0/goutil/errorx_test.returnXErr()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:21
-github.com/gookit/goutil/errorx_test.returnXErrL2()
+github.com/Joaolfc0/goutil/errorx_test.returnXErrL2()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:25
-github.com/gookit/goutil/errorx_test.TestNew()
+github.com/Joaolfc0/goutil/errorx_test.TestNew()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:29
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
@@ -124,7 +124,7 @@ With a go raw error:
 ```text
 second error message
 STACK:
-github.com/gookit/goutil/errorx_test.TestWith_goerr()
+github.com/Joaolfc0/goutil/errorx_test.TestWith_goerr()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:51
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
@@ -149,7 +149,7 @@ With a `errorx` error:
 ```text
 second error message
 STACK:
-github.com/gookit/goutil/errorx_test.TestWith_errorx()
+github.com/Joaolfc0/goutil/errorx_test.TestWith_errorx()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:64
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
@@ -158,9 +158,9 @@ runtime.goexit()
 
 Previous: first error message
 STACK:
-github.com/gookit/goutil/errorx_test.returnXErr()
+github.com/Joaolfc0/goutil/errorx_test.returnXErr()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:21
-github.com/gookit/goutil/errorx_test.TestWith_errorx()
+github.com/Joaolfc0/goutil/errorx_test.TestWith_errorx()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:61
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439

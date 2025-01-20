@@ -3,9 +3,9 @@ package sysutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/sysutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/sysutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestGoVersion(t *testing.T) {

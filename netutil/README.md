@@ -9,17 +9,17 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/netutil
+go get github.com/Joaolfc0/goutil/netutil
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/netutil)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/netutil)
 
 ## Usage
 
 ```go
-import "github.com/gookit/goutil/netutil"
+import "github.com/Joaolfc0/goutil/netutil"
 ```
 
 ```go

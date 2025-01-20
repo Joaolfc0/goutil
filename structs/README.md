@@ -12,12 +12,12 @@ Provide some extends util functions for struct. eg: convert, tag parse, struct d
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/structs
+go get github.com/Joaolfc0/goutil/structs
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/structs)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/structs)
 
 ## Usage
 

@@ -3,8 +3,8 @@ package errorx_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestAssert_methods(t *testing.T) {

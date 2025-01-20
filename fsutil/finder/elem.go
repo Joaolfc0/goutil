@@ -3,7 +3,7 @@ package finder
 import (
 	"io/fs"
 
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // Elem of find file/dir path result

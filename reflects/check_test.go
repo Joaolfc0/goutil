@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/reflects"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestIsNil(t *testing.T) {

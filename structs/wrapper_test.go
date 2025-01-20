@@ -3,8 +3,8 @@ package structs_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestNewWrapper(t *testing.T) {

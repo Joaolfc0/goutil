@@ -3,7 +3,7 @@ package timex
 import (
 	"time"
 
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // IsDuration check the string is a valid duration string.

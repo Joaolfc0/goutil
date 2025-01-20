@@ -3,8 +3,8 @@ package textscan_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/strutil/textscan"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/strutil/textscan"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestAddKind(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func Example() {

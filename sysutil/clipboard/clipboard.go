@@ -8,10 +8,10 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/sysutil"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/sysutil"
 )
 
 // Clipboard struct

@@ -9,14 +9,14 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/stdio"
+	"github.com/Joaolfc0/goutil/strutil"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/stdio"
-	"github.com/gookit/goutil/strutil"
 )
 
 var (
@@ -160,7 +160,7 @@ func handle(c *cflag.CFlags) error {
 		tplBody = fsutil.MustReadFile(tplFile)
 	}
 
-	basePkg := "github.com/gookit/goutil"
+	basePkg := "github.com/Joaolfc0/goutil"
 
 	// collect functions
 	buf := collectPgkFunc(ms, basePkg)

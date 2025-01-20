@@ -2,9 +2,10 @@ package fmtutil
 
 import (
 	"encoding/json"
-	"github.com/gookit/goutil/byteutil"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil"
+
+	"github.com/Joaolfc0/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // data size

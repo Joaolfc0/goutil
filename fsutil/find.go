@@ -6,9 +6,9 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // FilePathInDirs get full file path in dirs.

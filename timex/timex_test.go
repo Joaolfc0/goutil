@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/jsonutil"
-	"github.com/gookit/goutil/testutil/assert"
-	"github.com/gookit/goutil/timex"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/jsonutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/timex"
 )
 
 func TestWrap(t *testing.T) {
@@ -127,7 +127,7 @@ func TestTimeX_CustomHMS(t *testing.T) {
 	assert.Eq(t, "12:23:34", tx.CustomHMS(12, 23, 34).TplFormat("H:I:S"))
 }
 
-// https://github.com/gookit/goutil/issues/60
+// https://github.com/Joaolfc0/goutil/issues/60
 func TestTimeX_UnmarshalJSON(t *testing.T) {
 	type User struct {
 		Time timex.Time `json:"time"`

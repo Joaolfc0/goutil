@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestWithUserConvFn(t *testing.T) {

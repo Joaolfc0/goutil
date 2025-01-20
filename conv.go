@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/reflects"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // Bool convert value to bool

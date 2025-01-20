@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/netutil/httpctype"
-	"github.com/gookit/goutil/netutil/httpreq"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/netutil/httpreq"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestRespX_String(t *testing.T) {

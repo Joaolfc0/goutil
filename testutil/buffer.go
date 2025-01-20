@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"github.com/gookit/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/byteutil"
 )
 
 // Buffer wrap and extends the bytes.Buffer

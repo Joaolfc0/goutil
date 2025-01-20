@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/netutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/netutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestInternalIP(t *testing.T) {

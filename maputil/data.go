@@ -3,9 +3,9 @@ package maputil
 import (
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // Data an map data type

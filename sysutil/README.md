@@ -8,7 +8,7 @@ Provide some system util functions. eg: sysenv, exec, user, process
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/sysutil
+go get github.com/Joaolfc0/goutil/sysutil
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Package `clipboard` provide a simple clipboard read and write operations.
 ### Install
 
 ```bash
-go get github.com/gookit/goutil/sysutil/clipboard
+go get github.com/Joaolfc0/goutil/sysutil/clipboard
 ```
 
 ### Usage
@@ -48,7 +48,7 @@ assert.Eq(t, src, str)
 ### Install
 
 ```bash
-go get github.com/gookit/goutil/sysutil/cmdr
+go get github.com/Joaolfc0/goutil/sysutil/cmdr
 ```
 ### Usage
 

@@ -3,9 +3,9 @@ package finder_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/fsutil/finder"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/fsutil/finder"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func newMockElem(fp string, isDir ...bool) finder.Elem {

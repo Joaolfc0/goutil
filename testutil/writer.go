@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"github.com/gookit/goutil/testutil/fakeobj"
+	"github.com/Joaolfc0/goutil/testutil/fakeobj"
 )
 
 // TestWriter struct, useful for testing. alias of fakeobj.Writer

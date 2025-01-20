@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestToBool(t *testing.T) {

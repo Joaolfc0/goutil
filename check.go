@@ -3,8 +3,8 @@ package goutil
 import (
 	"reflect"
 
-	"github.com/gookit/goutil/internal/checkfn"
-	"github.com/gookit/goutil/reflects"
+	"github.com/Joaolfc0/goutil/internal/checkfn"
+	"github.com/Joaolfc0/goutil/reflects"
 )
 
 // IsNil value check

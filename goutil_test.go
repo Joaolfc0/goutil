@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 var testSrvAddr string
@@ -23,7 +23,7 @@ func TestMain(m *testing.M) {
 
 func TestPkgName(t *testing.T) {
 	name := goutil.PkgName(goutil.FuncName(goutil.PanicIfErr))
-	assert.Eq(t, "github.com/gookit/goutil", name)
+	assert.Eq(t, "github.com/Joaolfc0/goutil", name)
 }
 
 func TestPanicIfErr(t *testing.T) {

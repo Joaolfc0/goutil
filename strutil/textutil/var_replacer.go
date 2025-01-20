@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/internal/varexpr"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/internal/varexpr"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 const defaultVarFormat = "{{,}}"

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/arrutil"
 )
 
 // Key, value sep char consts

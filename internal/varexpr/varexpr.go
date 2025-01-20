@@ -110,7 +110,7 @@ func (p *Parser) Parse(val string) (newVal string, err error) {
 		return val, nil
 	}
 
-	// enhance: see https://github.com/gookit/goutil/issues/135
+	// enhance: see https://github.com/Joaolfc0/goutil/issues/135
 	if times == 1 && strings.HasPrefix(val, p.VarLeft) && strings.HasSuffix(val, p.VarRight) {
 		return p.parseOne(val)
 	}

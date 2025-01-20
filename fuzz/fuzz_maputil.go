@@ -6,7 +6,7 @@ package fuzz
 import (
 	"reflect"
 
-	"github.com/gookit/goutil/maputil"
+	"github.com/Joaolfc0/goutil/maputil"
 )
 
 // FuzzMapUtil testa as funções do pacote maputil.

@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/gookit/goutil/cflag"
+	"github.com/Joaolfc0/goutil/cflag"
 )
 
 // FuzzCFlag testa a estrutura de App e comandos.

@@ -5,12 +5,12 @@ Provide some commonly system or go ENV util functions.
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/envutil
+go get github.com/Joaolfc0/goutil/envutil
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/envutil)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/envutil)
 
 ## Functions API
 

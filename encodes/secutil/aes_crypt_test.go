@@ -3,10 +3,10 @@ package secutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/byteutil"
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/encodes/secutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/encodes/secutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestNewCrypt(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/internal/checkfn"
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/internal/checkfn"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // ToIntFunc convert value to int

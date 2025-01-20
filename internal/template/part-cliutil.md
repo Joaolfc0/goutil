@@ -20,8 +20,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 func main() {
@@ -40,7 +40,7 @@ func main() {
 **output**:
 
 ```shell
-PRINT AT github.com/gookit/goutil/cliutil_test.TestParseLine(line_parser_test.go:30)
+PRINT AT github.com/Joaolfc0/goutil/cliutil_test.TestParseLine(line_parser_test.go:30)
 []string [ #len=5
   string("./app"), #len=5
   string("top"), #len=3

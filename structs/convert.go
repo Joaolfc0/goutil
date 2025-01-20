@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/reflects"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/reflects"
 )
 
 // ToMap quickly convert structs to map by reflect

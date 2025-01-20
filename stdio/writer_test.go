@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/gookit/goutil/stdio"
-	"github.com/gookit/goutil/testutil/assert"
-	"github.com/gookit/goutil/testutil/fakeobj"
+	"github.com/Joaolfc0/goutil/stdio"
+	"github.com/Joaolfc0/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/testutil/fakeobj"
 )
 
 func TestNewWriteWrapper(t *testing.T) {

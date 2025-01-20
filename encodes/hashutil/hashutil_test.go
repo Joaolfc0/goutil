@@ -3,8 +3,8 @@ package hashutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/encodes/hashutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/encodes/hashutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestHash(t *testing.T) {

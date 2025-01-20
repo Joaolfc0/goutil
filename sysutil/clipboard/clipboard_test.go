@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/sysutil/clipboard"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/sysutil/clipboard"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestClipboard_WriteFromFile(t *testing.T) {

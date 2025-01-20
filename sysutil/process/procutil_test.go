@@ -5,8 +5,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/gookit/goutil/sysutil/process"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/sysutil/process"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestProcessExists(t *testing.T) {

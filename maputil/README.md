@@ -9,12 +9,12 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/maputil
+go get github.com/Joaolfc0/goutil/maputil
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/maputil)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/maputil)
 
 ## Usage
 

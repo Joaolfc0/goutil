@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
+	"github.com/Joaolfc0/goutil/dump"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil/dump"
 )
 
 // rum demo:

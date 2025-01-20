@@ -3,9 +3,9 @@ package strutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestMd5(t *testing.T) {

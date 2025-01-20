@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/sysutil"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/sysutil"
 	"golang.org/x/term"
 )
 

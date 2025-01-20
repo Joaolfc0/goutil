@@ -7,12 +7,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/basefn"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/reflects"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // LTemplateOptFn lite template option func

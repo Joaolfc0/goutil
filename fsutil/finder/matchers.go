@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/timex"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/timex"
 )
 
 // ------------------ built in filters ------------------

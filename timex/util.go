@@ -3,7 +3,7 @@ package timex
 import (
 	"time"
 
-	"github.com/gookit/goutil/basefn"
+	"github.com/Joaolfc0/goutil/basefn"
 )
 
 // NowUnix is short of time.Now().Unix()

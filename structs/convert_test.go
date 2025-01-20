@@ -3,9 +3,9 @@ package structs_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestTryToMap(t *testing.T) {
@@ -218,7 +218,7 @@ func TestTryToMap_customTag(t *testing.T) {
 	assert.ContainsKeys(t, mp, []string{"name", "age", "full_name"})
 }
 
-// https://github.com/gookit/goutil/issues/192
+// https://github.com/Joaolfc0/goutil/issues/192
 func TestIssue192(t *testing.T) {
 	// go code
 	type Structure struct {

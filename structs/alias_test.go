@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestAliases_AddAliases(t *testing.T) {

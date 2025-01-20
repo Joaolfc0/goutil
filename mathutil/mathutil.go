@@ -4,7 +4,7 @@ package mathutil
 import (
 	"math"
 
-	"github.com/gookit/goutil/comdef"
+	"github.com/Joaolfc0/goutil/comdef"
 )
 
 // OrElse return default value on val is zero, else return val

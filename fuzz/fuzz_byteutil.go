@@ -6,7 +6,7 @@ package fuzz
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/byteutil"
 )
 
 // FuzzByteUtil testa as funções no pacote byteutil.

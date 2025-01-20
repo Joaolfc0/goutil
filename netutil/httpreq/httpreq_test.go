@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/netutil/httpreq"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/netutil/httpreq"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 var testSrvAddr string

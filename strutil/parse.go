@@ -7,7 +7,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/gookit/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/byteutil"
 )
 
 // MustToTime convert date string to time.Time

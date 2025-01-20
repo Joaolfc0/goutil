@@ -1,8 +1,8 @@
 package textscan
 
 import (
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/errorx"
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/errorx"
 )
 
 // Kind type

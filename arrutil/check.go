@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/mathutil"
 )
 
 // SliceHas check the slice contains the given value

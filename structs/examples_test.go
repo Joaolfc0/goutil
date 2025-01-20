@@ -3,8 +3,8 @@ package structs_test
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/structs"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/structs"
 )
 
 func ExampleToMap() {

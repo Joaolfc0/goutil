@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil"
 )
 
 var testSrvAddr string

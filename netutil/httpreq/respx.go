@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gookit/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
 )
 
 // Resp alias of RespX

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gookit/goutil/comdef"
+	"github.com/Joaolfc0/goutil/comdef"
 )
 
 // OrCond return s1 on cond is True, OR return s2.

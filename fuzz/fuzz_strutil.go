@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // FuzzStrutil é um fuzz target para a biblioteca `strutil`.

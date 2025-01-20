@@ -5,9 +5,9 @@ import (
 	"testing"
 	"text/scanner"
 
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/testutil/assert"
-	"github.com/gookit/goutil/testutil/fakeobj"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/testutil/fakeobj"
 )
 
 func TestDiscardReader(t *testing.T) {

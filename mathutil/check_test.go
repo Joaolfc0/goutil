@@ -3,9 +3,9 @@ package mathutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestIsNumeric(t *testing.T) {

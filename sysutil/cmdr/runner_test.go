@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/sysutil/cmdr"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/sysutil/cmdr"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestRunner_Run(t *testing.T) {

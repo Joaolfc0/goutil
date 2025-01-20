@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gookit/goutil/netutil/httpctype"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // Client a simple http request client.

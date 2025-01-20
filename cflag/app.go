@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"sort"
 
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil"
 )
 
 // App struct

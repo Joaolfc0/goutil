@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gookit/goutil/comdef"
+	"github.com/Joaolfc0/goutil/comdef"
 )
 
 // StringsToAnys convert []string to []any

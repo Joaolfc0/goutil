@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 var c1Opts = struct {

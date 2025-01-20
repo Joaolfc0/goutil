@@ -4,7 +4,7 @@ package fmtutil
 import (
 	"encoding/json"
 
-	"github.com/gookit/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/byteutil"
 )
 
 // StringOrJSON to string or encode pretty JSON data to json bytes.

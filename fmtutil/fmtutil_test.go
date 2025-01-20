@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/gookit/goutil/fmtutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/fmtutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestStringOrJSON(t *testing.T) {

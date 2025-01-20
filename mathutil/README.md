@@ -5,12 +5,12 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/mathutil
+go get github.com/Joaolfc0/goutil/mathutil
 ```
 
 ## Go docs
 
-- [Go Docs](https://pkg.go.dev/github.com/gookit/goutil)
+- [Go Docs](https://pkg.go.dev/github.com/Joaolfc0/goutil)
 
 ## Usage
 

@@ -3,7 +3,7 @@ package fsutil
 import (
 	"path/filepath"
 
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // Realpath returns the shortest path name equivalent to path by purely lexical processing.

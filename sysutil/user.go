@@ -4,7 +4,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // MustFindUser must find a system user by name

@@ -3,7 +3,7 @@ package arrutil
 import (
 	"reflect"
 
-	"github.com/gookit/goutil/comdef"
+	"github.com/Joaolfc0/goutil/comdef"
 )
 
 // Reverse any T slice.

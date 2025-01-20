@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/netutil/httpreq"
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/netutil/httpreq"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestNewErrGroup(t *testing.T) {

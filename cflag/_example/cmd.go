@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/cliutil"
 )
 
 var opts = struct {

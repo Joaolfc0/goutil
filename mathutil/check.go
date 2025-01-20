@@ -1,6 +1,6 @@
 package mathutil
 
-import "github.com/gookit/goutil/comdef"
+import "github.com/Joaolfc0/goutil/comdef"
 
 // IsNumeric returns true if the given character is a numeric, otherwise false.
 func IsNumeric(c byte) bool {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestErrorR_usage(t *testing.T) {

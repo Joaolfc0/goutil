@@ -7,17 +7,17 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/reflects
+go get github.com/Joaolfc0/goutil/reflects
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/reflects)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/reflects)
 
 ## Usage
 
 ```go
-import "github.com/gookit/goutil/reflects"
+import "github.com/Joaolfc0/goutil/reflects"
 
 // get struct field value
 reflects.GetFieldValue(obj, "Name")

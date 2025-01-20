@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/internal/checkfn"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/internal/checkfn"
 )
 
 // Bool try to convert type to bool

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gookit/goutil/jsonutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/jsonutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestEncode(t *testing.T) {

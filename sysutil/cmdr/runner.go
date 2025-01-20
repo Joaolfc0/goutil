@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/cliutil/cmdline"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/maputil"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/strutil/textutil"
 	"github.com/gookit/color"
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/cliutil/cmdline"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/strutil/textutil"
 )
 
 // Task struct

@@ -3,7 +3,7 @@ package fakeobj
 import (
 	"errors"
 
-	"github.com/gookit/goutil/byteutil"
+	"github.com/Joaolfc0/goutil/byteutil"
 )
 
 // IOWriter only implements the io.Writer

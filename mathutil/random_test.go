@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestRandomInt(t *testing.T) {

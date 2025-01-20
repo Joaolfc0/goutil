@@ -3,7 +3,7 @@ package sysutil
 import (
 	"runtime"
 
-	"github.com/gookit/goutil/goinfo"
+	"github.com/Joaolfc0/goutil/goinfo"
 )
 
 // GoVersion get go runtime version. eg: "1.18.2"

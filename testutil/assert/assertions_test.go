@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestAssertions_Chain(t *testing.T) {

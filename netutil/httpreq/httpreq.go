@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gookit/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
 )
 
 // AfterSendFn callback func

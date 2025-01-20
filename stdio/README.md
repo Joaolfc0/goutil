@@ -5,12 +5,12 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/stdio
+go get github.com/Joaolfc0/goutil/stdio
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/stdio)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/stdio)
 
 ## Usage
 

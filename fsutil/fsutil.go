@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/basefn"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // PathSep alias of os.PathSeparator

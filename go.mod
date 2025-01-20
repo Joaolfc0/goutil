@@ -1,4 +1,4 @@
-module github.com/gookit/goutil
+module github.com/Joaolfc0/goutil
 
 go 1.19
 

@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 func isTimeType(v interface{}) bool {
 	return reflect.TypeOf(v).ConvertibleTo(reflect.TypeOf(time.Time{}))
 }
 
-// https://github.com/gookit/goutil/issues/200
+// https://github.com/Joaolfc0/goutil/issues/200
 func TestIssues_200(t *testing.T) {
 	var dateValue = "2024-10-02T19:02:46"
 	type RestorePointTimestamp time.Time

@@ -3,10 +3,10 @@ package structs_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/testutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/dump"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/testutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestInitDefaults(t *testing.T) {
@@ -262,7 +262,7 @@ func TestInitDefaults_ptrField(t *testing.T) {
 	assert.Eq(t, "sh", u.City)
 }
 
-// https://github.com/gookit/goutil/issues/172
+// https://github.com/Joaolfc0/goutil/issues/172
 // panic: reflect.Set: value of type []int is not assignable to type [3]int
 func TestIssues172(t *testing.T) {
 	type Config struct {

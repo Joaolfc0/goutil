@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/gookit/color v1.5.4
-	github.com/gookit/goutil v0.6.6-00010101000000-000000000000
+	github.com/Joaolfc0/goutil v0.6.6-00010101000000-000000000000
 	github.com/kortschak/utter v1.0.1
 	github.com/kr/pretty v0.2.1
 )
@@ -16,4 +16,4 @@ require (
 	golang.org/x/text v0.13.0 // indirect
 )
 
-replace github.com/gookit/goutil => ../../
+replace github.com/Joaolfc0/goutil => ../../

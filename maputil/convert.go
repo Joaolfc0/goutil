@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/reflects"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // KeyToLower convert keys to lower case.

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/basefn"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestPanicIf(t *testing.T) {

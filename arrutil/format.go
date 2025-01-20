@@ -4,8 +4,8 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/comdef"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // ArrFormatter struct

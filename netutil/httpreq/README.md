@@ -8,12 +8,12 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/netutil/httpreq
+go get github.com/Joaolfc0/goutil/netutil/httpreq
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/netutil/httpreq)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil/netutil/httpreq)
 
 ## Usage
 
@@ -23,7 +23,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/netutil/httpreq"
+	"github.com/Joaolfc0/goutil/netutil/httpreq"
 )
 
 func main() {
@@ -45,7 +45,7 @@ package main
 import (
     "fmt"
 
-    "github.com/gookit/goutil/netutil/httpreq"
+    "github.com/Joaolfc0/goutil/netutil/httpreq"
 )
 
 func main() {

@@ -13,7 +13,7 @@ import (
 	"hash/crc64"
 	"strings"
 
-	"github.com/gookit/goutil/encodes"
+	"github.com/Joaolfc0/goutil/encodes"
 )
 
 // hash algorithm names

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gookit/goutil/netutil/httpctype"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/netutil/httpctype"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestToKind(t *testing.T) {

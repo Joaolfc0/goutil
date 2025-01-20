@@ -6,7 +6,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/gookit/goutil/comdef"
+	"github.com/Joaolfc0/goutil/comdef"
 )
 
 // StrOrErr convert to string, return empty string on error.

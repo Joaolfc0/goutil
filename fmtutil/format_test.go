@@ -3,10 +3,10 @@ package fmtutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/fmtutil"
-	"github.com/gookit/goutil/testutil/assert"
-	"github.com/gookit/goutil/timex"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/fmtutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/timex"
 )
 
 func TestDataSize(t *testing.T) {

@@ -1,9 +1,9 @@
 package cflag
 
 import (
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/structs"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil/errorx"
+	"github.com/Joaolfc0/goutil/structs"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 // OptCheckFn define

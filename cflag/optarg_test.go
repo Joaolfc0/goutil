@@ -3,8 +3,8 @@ package cflag_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/cflag"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 func TestFlagArg_check(t *testing.T) {

@@ -3,7 +3,7 @@ package finder
 import (
 	"bytes"
 
-	"github.com/gookit/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/fsutil"
 )
 
 // Matcher for match file path.

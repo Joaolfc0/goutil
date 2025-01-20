@@ -4,10 +4,10 @@ package cliutil
 import (
 	"strings"
 
-	"github.com/gookit/goutil/cliutil/cmdline"
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/sysutil"
+	"github.com/Joaolfc0/goutil/cliutil/cmdline"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/strutil"
+	"github.com/Joaolfc0/goutil/sysutil"
 )
 
 // SplitMulti split multi string by sep string.

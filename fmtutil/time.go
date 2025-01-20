@@ -1,7 +1,7 @@
 package fmtutil
 
 import (
-	"github.com/gookit/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/mathutil"
 )
 
 // HowLongAgo format a seconds, get how lang ago

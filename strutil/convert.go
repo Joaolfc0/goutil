@@ -9,8 +9,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil/mathutil"
 )
 
 var (

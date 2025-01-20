@@ -6,10 +6,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/basefn"
+	"github.com/Joaolfc0/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/strutil"
 )
 
 var builtInFuncs = template.FuncMap{

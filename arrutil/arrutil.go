@@ -2,7 +2,7 @@
 package arrutil
 
 import (
-	"github.com/gookit/goutil/mathutil"
+	"github.com/Joaolfc0/goutil/mathutil"
 )
 
 // GetRandomOne get random element from an array/slice

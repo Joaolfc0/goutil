@@ -2,17 +2,17 @@
 
  `goutil/goinfo` provide some useful info for golang.
 
-> Github: https://github.com/gookit/goutil
+> Github: https://github.com/Joaolfc0/goutil
 
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/goinfo
+go get github.com/Joaolfc0/goutil/goinfo
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil)
+- [Go docs](https://pkg.go.dev/github.com/Joaolfc0/goutil)
 
 ## Usage
 

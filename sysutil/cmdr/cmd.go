@@ -8,10 +8,10 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/cliutil/cmdline"
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/Joaolfc0/goutil"
+	"github.com/Joaolfc0/goutil/arrutil"
+	"github.com/Joaolfc0/goutil/cliutil/cmdline"
+	"github.com/Joaolfc0/goutil/internal/comfunc"
 )
 
 // Cmd struct

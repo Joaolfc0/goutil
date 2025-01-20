@@ -1,11 +1,11 @@
 # Go Util
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/goutil?style=flat-square)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/goutil)](https://github.com/gookit/goutil)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gookit/goutil)](https://goreportcard.com/report/github.com/gookit/goutil)
-[![Unit-Tests](https://github.com/gookit/goutil/workflows/Unit-Tests/badge.svg)](https://github.com/gookit/goutil/actions)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/goutil)](https://github.com/Joaolfc0/goutil)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Joaolfc0/goutil)](https://goreportcard.com/report/github.com/Joaolfc0/goutil)
+[![Unit-Tests](https://github.com/Joaolfc0/goutil/workflows/Unit-Tests/badge.svg)](https://github.com/Joaolfc0/goutil/actions)
 [![Coverage Status](https://coveralls.io/repos/github/gookit/goutil/badge.svg?branch=master)](https://coveralls.io/github/gookit/goutil?branch=master)
-[![Go Reference](https://pkg.go.dev/badge/github.com/gookit/goutil.svg)](https://pkg.go.dev/github.com/gookit/goutil)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Joaolfc0/goutil.svg)](https://pkg.go.dev/github.com/Joaolfc0/goutil)
 
 `goutil` Go 常用功能的扩展工具库(**700+**)。包含：数字，byte, 字符串，slice/数组，Map，结构体，反射，文本，文件，错误，时间日期，测试，特殊处理，格式化，常用信息获取等等。
 
@@ -55,18 +55,18 @@
 
 ## GoDoc
 
-- [Godoc for github](https://pkg.go.dev/github.com/gookit/goutil)
+- [Godoc for github](https://pkg.go.dev/github.com/Joaolfc0/goutil)
 
 ## 获取
 
 ```shell
-go get github.com/gookit/goutil
+go get github.com/Joaolfc0/goutil
 ```
 
 ## Usage
 
 ```go
-// github.com/gookit/goutil
+// github.com/Joaolfc0/goutil
 is.True(goutil.IsEmpty(nil))
 is.False(goutil.IsEmpty("abc"))
 
@@ -99,7 +99,7 @@ dump.Print(somevar, somevar2, ...)
 
 ### Array and Slice
 
-> Package `github.com/gookit/goutil/arrutil`
+> Package `github.com/Joaolfc0/goutil/arrutil`
 
 ```go
 // source at arrutil/arrutil.go
@@ -204,7 +204,7 @@ ss, err := arrutil.ToStrings([]int{1, 2}) // ss: []string{"1", "2"}
 
 ### Bytes Utils
 
-> Package `github.com/gookit/goutil/byteutil`
+> Package `github.com/Joaolfc0/goutil/byteutil`
 
 ```go
 // source at byteutil/buffer.go
@@ -236,7 +236,7 @@ func NewChanPool(chSize int, width int, capWidth int) *ChanPool
 
 ### Cflag
 
-> Package `github.com/gookit/goutil/cflag`
+> Package `github.com/Joaolfc0/goutil/cflag`
 
 ```go
 // source at cflag/app.go
@@ -276,7 +276,7 @@ func ReplaceShorts(args []string, shortsMap map[string]string) []string
 
 ### CLI/Console
 
-> Package `github.com/gookit/goutil/cliutil`
+> Package `github.com/Joaolfc0/goutil/cliutil`
 
 ```go
 // source at cliutil/cliutil.go
@@ -336,8 +336,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/dump"
+	"github.com/Joaolfc0/goutil/cliutil"
+	"github.com/Joaolfc0/goutil/dump"
 )
 
 func main() {
@@ -356,7 +356,7 @@ func main() {
 **output**:
 
 ```shell
-PRINT AT github.com/gookit/goutil/cliutil_test.TestParseLine(line_parser_test.go:30)
+PRINT AT github.com/Joaolfc0/goutil/cliutil_test.TestParseLine(line_parser_test.go:30)
 []string [ #len=5
   string("./app"), #len=5
   string("top"), #len=3
@@ -372,7 +372,7 @@ Build line: ./myapp -a val0 -m "this is message" arg0
 
 ### Dumper
 
-> Package `github.com/gookit/goutil/dump`
+> Package `github.com/Joaolfc0/goutil/dump`
 
 ```go
 // source at dump/dump.go
@@ -408,7 +408,7 @@ example code:
 ```go
 package main
 
-import "github.com/gookit/goutil/dump"
+import "github.com/Joaolfc0/goutil/dump"
 
 // rum demo:
 // 	go run ./dump/_examples/demo1.go
@@ -447,7 +447,7 @@ Preview:
 
 ### Encodes
 
-> Package `github.com/gookit/goutil/encodes`
+> Package `github.com/Joaolfc0/goutil/encodes`
 
 ```go
 // source at encodes/encodes.go
@@ -461,7 +461,7 @@ func B64DecodeBytes(str []byte) []byte
 
 ### ENV/Environment
 
-> Package `github.com/gookit/goutil/envutil`
+> Package `github.com/Joaolfc0/goutil/envutil`
 
 ```go
 // source at envutil/envutil.go
@@ -520,7 +520,7 @@ envutil.ParseValue("${ENV_NAME | defValue}")
 
 ### Errorx
 
-> Package `github.com/gookit/goutil/errorx`
+> Package `github.com/Joaolfc0/goutil/errorx`
 
 `errorx` 提供了增强的错误报告实现，包含调用堆栈信息并且可以包装上一级错误。
 
@@ -639,11 +639,11 @@ func doSomething() error {
 ```text
 the error message
 STACK:
-github.com/gookit/goutil/errorx_test.returnXErr()
+github.com/Joaolfc0/goutil/errorx_test.returnXErr()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:21
-github.com/gookit/goutil/errorx_test.returnXErrL2()
+github.com/Joaolfc0/goutil/errorx_test.returnXErrL2()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:25
-github.com/gookit/goutil/errorx_test.TestNew()
+github.com/Joaolfc0/goutil/errorx_test.TestNew()
   /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:29
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
@@ -654,7 +654,7 @@ runtime.goexit()
 
 ### Format Utils
 
-> Package `github.com/gookit/goutil/fmtutil`
+> Package `github.com/Joaolfc0/goutil/fmtutil`
 
 ```go
 // source at fmtutil/fmtutil.go
@@ -672,7 +672,7 @@ func HowLongAgo(sec int64) string
 
 ### File System
 
-> Package `github.com/gookit/goutil/fsutil`
+> Package `github.com/Joaolfc0/goutil/fsutil`
 
 ```go
 // source at fsutil/check.go
@@ -801,7 +801,7 @@ import (
 	"fmt"
 	"io/fs"
 
-	"github.com/gookit/goutil/fsutil"
+	"github.com/Joaolfc0/goutil/fsutil"
 )
 
 func main() {
@@ -822,7 +822,7 @@ func main() {
 
 ### Go Info
 
-> Package `github.com/gookit/goutil/goinfo`
+> Package `github.com/Joaolfc0/goutil/goinfo`
 
 ```go
 // source at goinfo/gofunc.go
@@ -843,7 +843,7 @@ func GetCallersInfo(skip, max int) []string
 
 ### JSON Utils
 
-> Package `github.com/gookit/goutil/jsonutil`
+> Package `github.com/Joaolfc0/goutil/jsonutil`
 
 ```go
 // source at jsonutil/encoding.go
@@ -872,7 +872,7 @@ func StripComments(src string) string
 
 ### Map
 
-> Package `github.com/gookit/goutil/maputil`
+> Package `github.com/Joaolfc0/goutil/maputil`
 
 ```go
 // source at maputil/check.go
@@ -920,7 +920,7 @@ func SetByKeys(mp *map[string]any, keys []string, val any) (err error)
 
 ### Math/Number
 
-> Package `github.com/gookit/goutil/mathutil`
+> Package `github.com/Joaolfc0/goutil/mathutil`
 
 ```go
 // source at mathutil/check.go
@@ -1035,7 +1035,7 @@ func New[T comdef.IntOrFloat](v T) *Num[T]
 
 ### Reflects
 
-> Package `github.com/gookit/goutil/reflects`
+> Package `github.com/Joaolfc0/goutil/reflects`
 
 ```go
 // source at reflects/check.go
@@ -1100,7 +1100,7 @@ func ValueOf(v any) Value
 
 ### Stdio
 
-> Package `github.com/gookit/goutil/stdio`
+> Package `github.com/Joaolfc0/goutil/stdio`
 
 ```go
 // source at stdio/ioutil.go
@@ -1126,7 +1126,7 @@ func NewWriteWrapper(w io.Writer) *WriteWrapper
 
 ### Structs
 
-> Package `github.com/gookit/goutil/structs`
+> Package `github.com/Joaolfc0/goutil/structs`
 
 ```go
 // source at structs/alias.go
@@ -1177,7 +1177,7 @@ func SetValues(ptr any, data map[string]any, optFns ...SetOptFunc) error
 
 ### Strings
 
-> Package `github.com/gookit/goutil/strutil`
+> Package `github.com/Joaolfc0/goutil/strutil`
 
 ```go
 // source at strutil/bytes.go
@@ -1429,7 +1429,7 @@ func SubstrCount(s, substr string, params ...uint64) (int, error)
 
 ### Syncs
 
-> Package `github.com/gookit/goutil/syncs`
+> Package `github.com/Joaolfc0/goutil/syncs`
 
 ```go
 // source at syncs/chan.go
@@ -1444,7 +1444,7 @@ func SignalHandler(ctx context.Context, signals ...os.Signal) (execute func() er
 
 ### System Utils
 
-> Package `github.com/gookit/goutil/sysutil`
+> Package `github.com/Joaolfc0/goutil/sysutil`
 
 ```go
 // source at sysutil/exec.go
@@ -1515,7 +1515,7 @@ func ChangeUserUIDGid(newUID int, newGid int) (err error)
 
 ### Testing Utils
 
-> Package `github.com/gookit/goutil/testutil`
+> Package `github.com/Joaolfc0/goutil/testutil`
 
 ```go
 // source at testutil/buffer.go
@@ -1554,7 +1554,7 @@ func NewDirEnt(fpath string, isDir ...bool) *fakeobj.DirEntry
 
 ### Timex
 
-> Package `github.com/gookit/goutil/timex`
+> Package `github.com/Joaolfc0/goutil/timex`
 
 Provides an enhanced time.Time implementation, and add more commonly used functional methods.
 ```go
@@ -1768,7 +1768,7 @@ go test -v -run ^TestErr$ ./testutil/assert/...
 - [gookit/config](https://github.com/gookit/config) Go config management. support JSON, YAML, TOML, INI, HCL, ENV and Flags
 - [gookit/filter](https://github.com/gookit/filter) Provide filtering, sanitizing, and conversion of golang data
 - [gookit/validate](https://github.com/gookit/validate) Use for data validation and filtering. support Map, Struct, Form data
-- [gookit/goutil](https://github.com/gookit/goutil) Some utils for the Go: string, array/slice, map, format, cli, env, filesystem, test and more
+- [gookit/goutil](https://github.com/Joaolfc0/goutil) Some utils for the Go: string, array/slice, map, format, cli, env, filesystem, test and more
 - More, please see https://github.com/gookit
 
 ## License

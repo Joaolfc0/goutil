@@ -3,8 +3,8 @@ package jsonutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/jsonutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/Joaolfc0/goutil/jsonutil"
+	"github.com/Joaolfc0/goutil/testutil/assert"
 )
 
 type user struct {
