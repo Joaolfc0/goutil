@@ -4,7 +4,6 @@
 package fuzz
 
 import (
-	"fmt"
 	"reflect"
 
 	"github.com/gookit/goutil/maputil"
@@ -47,12 +46,10 @@ func FuzzMapUtil(data []byte) int {
 	// Testa EachAnyMap e EachTypedMap
 	maputil.EachAnyMap(testMap, func(key string, val any) {
 		if reflect.ValueOf(val).Kind() == reflect.String && key == input {
-			fmt.Printf("Encontrado valor string em key: %s\n", key)
 		}
 	})
 	maputil.EachTypedMap(map[string]int{"key1": 1, "key2": 2}, func(key string, val int) {
 		if val%2 == 0 {
-			fmt.Printf("Encontrado valor par: %d\n", val)
 		}
 	})
 
