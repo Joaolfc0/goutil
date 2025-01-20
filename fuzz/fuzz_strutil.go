@@ -6,7 +6,6 @@ package fuzz
 import (
 	"fmt"
 	"regexp"
-	"strconv"
 
 	"github.com/gookit/goutil/strutil"
 )
@@ -70,31 +69,48 @@ func FuzzStrutil(data []byte) int {
 	return 1
 }
 
-func FuzzRandomWindows(data []byte) int {
+// FuzzRandomChars testa as funções de geração de strings aleatórias no arquivo strutil.
+func FuzzRandomChars(data []byte) int {
 	if len(data) == 0 {
 		return 0
 	}
 
-	input := string(data)
+	input := len(data) % 100 // Limita o tamanho para evitar inputs muito grandes
 
-	// Testa nearestPowerOfTwo
-	if num, err := strconv.Atoi(input); err == nil && num > 0 {
-		_ = strutil.NearestPowerOfTwo(num)
+	// Testa RandomChars
+	generated := strutil.RandomChars(input)
+	if len(generated) != input {
+		panic(fmt.Sprintf("RandomChars generated string has wrong length: expected %d, got %d", input, len(generated)))
 	}
 
-	// Testa buildRandomString
-	letters := "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	length := len(input) % 100 // Limita o tamanho para evitar inputs muito grandes
-	if length > 0 {
-		generated := strutil.BuildRandomString(letters, length)
-		if len(generated) != length {
-			panic(fmt.Sprintf("Generated string has wrong length: expected %d, got %d", length, len(generated)))
+	// Testa RandomCharsV2
+	generatedV2 := strutil.RandomCharsV2(input)
+	if len(generatedV2) != input {
+		panic(fmt.Sprintf("RandomCharsV2 generated string has wrong length: expected %d, got %d", input, len(generatedV2)))
+	}
+
+	// Testa RandomCharsV3
+	generatedV3 := strutil.RandomCharsV3(input)
+	if len(generatedV3) != input {
+		panic(fmt.Sprintf("RandomCharsV3 generated string has wrong length: expected %d, got %d", input, len(generatedV3)))
+	}
+
+	// Testa RandWithTpl
+	template := "0123456789abcdef"
+	randTpl := strutil.RandWithTpl(input, template)
+	if len(randTpl) != input {
+		panic(fmt.Sprintf("RandWithTpl generated string has wrong length: expected %d, got %d", input, len(randTpl)))
+	}
+	for _, char := range randTpl {
+		if !containsRune(template, char) {
+			panic(fmt.Sprintf("RandWithTpl generated string contains invalid character: %c", char))
 		}
-		for _, char := range generated {
-			if !containsRune(letters, char) {
-				panic(fmt.Sprintf("Generated string contains invalid character: %c", char))
-			}
-		}
+	}
+
+	// Testa RandomString
+	_, err := strutil.RandomString(input)
+	if err != nil {
+		panic(fmt.Sprintf("RandomString returned an error: %v", err))
 	}
 
 	return 1
