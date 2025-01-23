@@ -39,20 +39,20 @@ func FuzzStrutil(data []byte) int {
 	}
 
 	// // Testa funções de conversão de bases
-	// for _, base := range []int{2, 8, 10, 16, 32, 36, 62, 64} {
-	// 	// Tenta converter input como uma string em base 10 para outra base
-	// 	_ = strutil.Base10Conv(input, base)
+	for _, base := range []int{2, 8, 10, 16, 32, 36, 62, 64} {
+		// Tenta converter input como uma string em base 10 para outra base
+		_ = strutil.Base10Conv(input, base)
 
-	// 	// Converte entre diferentes bases usando BaseConv
-	// 	for _, fromBase := range []int{2, 10, 16} {
-	// 		_ = strutil.BaseConv(input, fromBase, base)
-	// 	}
-	// }
+		// Converte entre diferentes bases usando BaseConv
+		for _, fromBase := range []int{2, 10, 16} {
+			_ = strutil.BaseConv(input, fromBase, base)
+		}
+	}
 
-	// Testa BaseConvByTpl diretamente com diferentes templates
-	// _ = strutil.BaseConvByTpl(input, strutil.Base10Chars, strutil.Base16Chars)
-	// _ = strutil.BaseConvByTpl(input, strutil.Base62Chars, strutil.Base36Chars)
-	// _ = strutil.BaseConvByTpl(input, strutil.Base64Chars, strutil.Base32Chars)
+	//Testa BaseConvByTpl diretamente com diferentes templates
+	_ = strutil.BaseConvByTpl(input, strutil.Base10Chars, strutil.Base16Chars)
+	_ = strutil.BaseConvByTpl(input, strutil.Base62Chars, strutil.Base36Chars)
+	_ = strutil.BaseConvByTpl(input, strutil.Base64Chars, strutil.Base32Chars)
 
 	// Testa funções de similaridade
 	comp := strutil.NewComparator(input, "example")
@@ -75,7 +75,7 @@ func FuzzRandomChars(data []byte) int {
 		return 0
 	}
 
-	input := len(data) // Limita o tamanho para evitar inputs muito grandes
+	input := len(data)
 
 	// Testa RandomChars
 	generated := strutil.RandomChars(input)
